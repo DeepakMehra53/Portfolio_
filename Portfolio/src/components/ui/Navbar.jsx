@@ -5,25 +5,67 @@ export default function Navbar() {
   return (
     <>
       <div
-        className="nav_wrap"
-        class="relative flex flex-row justify-between items-center py-6"
+        
+        className="relative flex flex-row items-center justify-between py-6"
       >
-        <div className="brand_wrap">
+        <div >
           <a
             href="/"
             data-w-id="045f99fe-ac6b-eb28-1f16-d72c0e5c6059"
             aria-current="page"
-            class="brand w-nav-brand w--current flex-1 ml-0 pl-0 w-[36vw]"
+            className="brand w-nav-brand w--current flex-1 ml-0 pl-0 w-[36vw]"
           >
             <img
               src={whiteLogo}
               alt=""
               data-w-id="045f99fe-ac6b-eb28-1f16-d72c0e5c605a"
-              class="logo"
+              
             />
-            <img src={blackLogo} alt="" class="logo_black" />
+            <img src={blackLogo} alt=""  />
           </a>
         </div>
+        <nav
+          role="navigation"
+          data-w-id="045f99fe-ac6b-eb28-1f16-d72c0e5c605c"
+          className="nav-menu w-nav-menu flex flex-col justify-center items-center w-full h-[75vh] pt-[4vw] bg-transparent text-white relative float-right"
+        >
+          <div
+           
+            className="relative z-30 flex-col justify-center w-full h-full"
+          >
+            <div
+              className="relative z-0 flex flex-col items-center justify-between overflow-hidden mt-0 pt-[5px]"
+            >
+              <a
+                href="#home"
+                // class="hover_link_wrap w-inline-block w--curent"
+                className="mr-6 mb-[5.5vw] flex-none no-underline hover:underline inline-block max-w-full"
+              >
+                <div
+                //   class="link_anim"
+                  className="relative flex flex-col mr-0 overflow-visible"
+                >
+                  <div
+                    // class="anim_wr"
+                    className="relative flex flex-col overflow-visible"
+                  >
+                    <div
+                    //   class="nav_link"
+                      className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom"
+                    >
+                      home
+                    </div>
+                    <div
+                      className="nav-link-down is--first custom-3d-transfrom"
+                    >
+                      Home
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
       </div>
     </>
   );
