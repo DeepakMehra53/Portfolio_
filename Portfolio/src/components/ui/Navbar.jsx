@@ -1,28 +1,30 @@
-export default function Navbar(){
-    return(
-        <>
-
-
-        <header className="flex items-center justify-between px-6 py-4 bg-black shadow-md border-black rounded	">
-            <div className="text-2xl font-bold text-gray-800">
-                <a href="" className="hover:text-blue-600 transition"></a>
-            </div>
-
-            <nav>
-                <ul className="flex space-x-8 text-gray-700">
-                    <li><a href="" className="hover:text-blue-600 transition">Home</a></li>
-                    <li><a href="" className="hover:text-blue-600 transition">About</a></li>
-                    <li><a href="" className="hover:text-blue-600 transition">Projects</a></li>
-                    <li><a href="" className="hover:text-blue-600 transition">Skills</a></li>
-                    <li><a href="" className="hover:text-blue-600 transition">Experience</a></li>
-                    <li><a href="" className="hover:text-blue-600 transition">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-            <div>
-                <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Download Resume</button>
-                <button></button>
-            </div>
-        </>
-    )
-} 
+import React from "react";
+import whiteLogo from "../../assets/White.svg";
+import blackLogo from "../../assets/Black.svg";
+export default function Navbar() {
+  return (
+    <>
+      <div
+        className="nav_wrap"
+        class="relative flex flex-row justify-between items-center py-6"
+      >
+        <div className="brand_wrap">
+          <a
+            href="/"
+            data-w-id="045f99fe-ac6b-eb28-1f16-d72c0e5c6059"
+            aria-current="page"
+            class="brand w-nav-brand w--current flex-1 ml-0 pl-0 w-[36vw]"
+          >
+            <img
+              src={whiteLogo}
+              alt=""
+              data-w-id="045f99fe-ac6b-eb28-1f16-d72c0e5c605a"
+              class="logo"
+            />
+            <img src={blackLogo} alt="" class="logo_black" />
+          </a>
+        </div>
+      </div>
+    </>
+  );
+}
