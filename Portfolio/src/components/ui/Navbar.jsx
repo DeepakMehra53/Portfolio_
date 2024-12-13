@@ -31,7 +31,7 @@ export default function Navbar() {
               <a
                 href="#home"
                 // class="hover_link_wrap w-inline-block w--curent"
-                className="mr-6 mb-[5.5vw] flex-none no-underline hover:underline inline-block max-w-full bg-transparent"
+                className="mr-6 mb-[5.5vw] flex-none no-underline  hover:underline inline-block max-w-full bg-transparent"
               >
                 <div
                   //   class="link_anim"
@@ -56,7 +56,7 @@ export default function Navbar() {
               {/* Introduction */}
               <a
                 href="#introduction"
-                className="inline-block max-w-full mr-6 no-underline bg-transparent hover_link_wrap w-inline-block "
+                className="mb-[5.5vw] flex-none mr-6 no-underline max-w-full inline-block bg-transparent hover_link_wrap w-inline-block "
               >
                 <div className="relative flex flex-col mr-0 overflow-visible link_anim">
                   <div className="relative flex flex-col overflow-visible anim_wr">
@@ -71,7 +71,7 @@ export default function Navbar() {
               </a>
               <a
                 href="#projects"
-                className="inline-block max-w-full mr-6 no-underline bg-transparent hover_link_wrap w-inline-block"
+                className="mb-[5.5vw] flex-none mr-6 no-underline max-w-full inline-block bg-transparent hover_link_wrap w-inline-block"
               >
                 <div className="relative flex flex-col mr-0 overflow-visible link_anim">
                   <div className="relative flex flex-col overflow-visible anim_wr">
@@ -86,18 +86,64 @@ export default function Navbar() {
               </a>
               <a
                 href="#skills"
-                className="bg-transparent hover_link_wrap w-inline-block"
+                className="mb-[5.5vw] flex-none mr-6 no-underline max-w-full inline-block bg-transparent"
               >
-                <div>
-                  <div>
-                    <div></div>
-                    <div></div>
+                <div className="relative flex flex-col mr-0 overflow-visible ">
+                  <div className="relative flex flex-col overflow-hidden ">
+                    <div className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom">
+                      SKILLS
+                    </div>
+                    <div className="absolute  p-0 text-white tect-[0.83em] font-semibold uppercase lending-[1.3] hidden custom-3d-style">
+                      SKILLS
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="#blog"
+                className="mb-[5.5vw] flex-none mr-6 no-underline max-w-full inline-block bg-transparent"
+              >
+                <div className="relative flex flex-col mr-0 overflow-visible ">
+                  <div className="relative flex flex-col overflow-hidden ">
+                    <div className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom">
+                      Blogs
+                    </div>
+                    <div className="absolute  p-0 text-white tect-[0.83em] font-semibold uppercase lending-[1.3] hidden custom-3d-style">
+                      Blogs
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="#contact"
+                className="mb-[5.5vw] flex-none mr-6 no-underline max-w-full inline-block bg-transparent"
+              >
+                <div className="relative flex flex-col mr-0 overflow-visible">
+                  <div className="relative flex flex-col overflow-hidden ">
+                    <div className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom">
+                      Contact
+                    </div>
+                    <div className="absolute  p-0 text-white tect-[0.83em] font-semibold uppercase lending-[1.3] hidden custom-3d-style">
+                      Contact
+                    </div>
                   </div>
                 </div>
               </a>
             </div>
+            <div className="relative flex items-center justify-end switch_wr">
+              <div className="block p-0 text-white text-[0.83em] font-semibold uppercase mr-[5em]">
+                dark mode
+              </div>
+              <a
+                href=""
+                className="max-w-full  absolute flex justify-end items-center self-center w-[3em] h-[1.5em] ml-0 border-2 border-white rounded-[30px] bg-[#0c1e3d] switch"
+              >
+                <div className="relative w-6 h-6 -mb-1 -mr-px bg-white border border-white rounded-full custom-3d-transfrom-1 switch_circ"></div>
+              </a>
+            </div>
           </div>
         </nav>
+        
       </div>
     </>
   );
