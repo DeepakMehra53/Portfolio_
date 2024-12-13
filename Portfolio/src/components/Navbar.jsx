@@ -4,7 +4,7 @@ import blackLogo from "../assets/Black.svg";
 export default function Navbar() {
   return (
     <>
-      <div className="relative flex flex-row items-center justify-between py-6">
+      <div className="relative flex flex-row items-center justify-between py-6 ">
         <div>
           <a
             href="/"
