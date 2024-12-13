@@ -1,6 +1,6 @@
 import React from "react";
-import whiteLogo from "../../assets/White.svg";
-import blackLogo from "../../assets/Black.svg";
+import whiteLogo from "../assets/White.svg";
+import blackLogo from "../assets/Black.svg";
 export default function Navbar() {
   return (
     <>
@@ -148,8 +148,8 @@ export default function Navbar() {
           aria-label="menu"
           role="button"
           tabIndex={"0"}
-          aria-expanded={isopen ? "true" : "false"}
-          onClick={toggleMenu}
+
+          // onClick={toggleMenu}
         >
           <div className="flex flex-col items-center justify-center flex-1">
             <div className="w-7 h-0.5 mb-1.5 bg-gray-200 custom-3d-transfrom-2 up_line"></div>
@@ -159,7 +159,7 @@ export default function Navbar() {
         <div className="z-10  flex items-start border border-transparent bg-transparent relative float-right p-[18px] text-2xl  cursor-pointer select-none burger_2 w-nav-button">
           <div className="flex flex-col items-center justify-center flex-1 bt_wr">
             <div className="w-[30px] h-[2px] mb-[5px] pr-0 pb-0 bg-[#ececec]  custom-3d-transfrom-2 upline"></div>
-            <div className="w-[30px] h-[2px] pr-0 pb-0 bg-[#ececec] down_line"></div>
+            <div className="w-[30px] h-[2px] pr-0 pb-0 bg-[#ececec] custom-3d-transfrom-2  down_line"></div>
           </div>
         </div>
       </div>
