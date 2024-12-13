@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar.jsx'
+import Stating from './components/Starting'
 import './App.css'
 
 function App() {
@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
+      <Stating/>
       
-      <Navbar/>
     </>
   )
 }

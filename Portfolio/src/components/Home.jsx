@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 export default function () {
   return (
     <>
@@ -14,8 +15,12 @@ export default function () {
           data-easing="ease"
           data-easing2="ease"
           role="banner"
-          class="navbar w-nav"
-        ></div>
+          className="absolute inset-x-0 top-0 h-[5.8em] bg-transparent text-white  bg-[#dddddd] z-[1000] navbar w-nav"
+        >
+          <div className="z-[5] max-w-full pr-10 pl-10 mx-auto  container w-container">
+            <Navbar/>
+          </div>
+        </div>
       </div>
     </>
   );

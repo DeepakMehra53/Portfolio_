@@ -63,7 +63,7 @@ export default function Navbar() {
                     <div className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom nav-link">
                       Introduction
                     </div>
-                    <div className="absolute block p-0 text-sm font-semibold text-white uppercase nav-link-down is--second custom-3d-style">
+                    <div className="absolute block p-0 text-sm font-semibold text-white uppercase landing-[1.3] nav-link-down is--second custom-3d-style">
                       Introduction
                     </div>
                   </div>
@@ -78,7 +78,7 @@ export default function Navbar() {
                     <div className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom nav-link">
                       Projects
                     </div>
-                    <div className="absolute  p-0 text-white tect-[0.83em] font-semibold uppercase lending-[1.3] hidden custom-3d-style nav-link-down is--third">
+                    <div className="absolute block p-0 text-white tect-[0.83em] font-semibold uppercase lending-[1.3]  custom-3d-style nav-link-down is--third">
                       Projects
                     </div>
                   </div>
@@ -93,7 +93,7 @@ export default function Navbar() {
                     <div className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom">
                       SKILLS
                     </div>
-                    <div className="absolute  p-0 text-white tect-[0.83em] font-semibold uppercase lending-[1.3] hidden custom-3d-style">
+                    <div className="absolute block p-0 text-sm font-semibold text-white uppercase landing-[1.3] nav-link-down is--second custom-3d-style">
                       SKILLS
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default function Navbar() {
                     <div className="block p-0 text-sm font-semibold text-white uppercase custom-3d-transfrom">
                       Blogs
                     </div>
-                    <div className="absolute  p-0 text-white tect-[0.83em] font-semibold uppercase lending-[1.3] hidden custom-3d-style">
+                    <div className="absolute block p-0 text-sm font-semibold text-white uppercase landing-[1.3] nav-link-down is--second custom-3d-style">
                       Blogs
                     </div>
                   </div>
