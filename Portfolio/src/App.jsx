@@ -5,11 +5,10 @@ function App() {
   
 
   return (
-    <div className='body disabled-hover'>
-      
-      <Home/>
+    <div className="body disabled-hover">
+      <Home />
     </div>
-  )
+  );
 }
 
 export default App
