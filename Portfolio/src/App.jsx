@@ -1,13 +1,13 @@
-import Stating from './components/Starting'
+//import Stating from './components/Starting'
 import './App.css'
-
+import Navbar from './components/Navbar/Navbar'
 function App() {
   
 
   return (
     <>
-      <Stating/>
       
+      <Navbar/>
     </>
   )
 }
