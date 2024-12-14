@@ -1,0 +1,22 @@
+._1_st_section_wrap {
+    position: relative;
+    overflow: visible;
+}
+._1_st_section_wrap.pp {
+    overflow: hidden;
+}
+._100vh {
+    position: relative;
+    overflow: visible;
+    height: 100vh;
+}
+@media screen and (max-width: 991px){
+    ._100vh {
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 767px) {
+    ._100vh {
+        height: auto;
+    }
+}

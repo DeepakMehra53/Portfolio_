@@ -15,7 +15,14 @@ export default function NavMenu () {
       <div className="add_nav_wrap">
         <div className="link_div">
           {links.map((link, index) => (
-            <NavLink key={index} href={link.href} text={link.text} />
+            <NavLink key={index} href={link.href} text={link.text} >
+                <div className="relative flex flex-col mr-0 overflow-visible ">
+                    <div className="relative flex flex-col overflow-visible">
+                        <div className="block p-0 text-sm font-semibold text-white upercase custom-3d-transfrom">{link.text.toLowerCase()}</div>
+                        <div className="absolute block p-0 text-sm font-semibold text-white uppercase landing-[1.3] nav-link-down is--first custom-3d-style">{link.text}</div>
+                    </div>
+                </div>
+            </NavLink>
           ))}
         </div>
         <Switch />

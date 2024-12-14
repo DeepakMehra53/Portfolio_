@@ -1,14 +1,14 @@
 //import Stating from './components/Starting'
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import Home from './components/Home/Home.jsx'
 function App() {
   
 
   return (
-    <>
+    <div className='body disabled-hover'>
       
-      <Navbar/>
-    </>
+      <Home/>
+    </div>
   )
 }
 
