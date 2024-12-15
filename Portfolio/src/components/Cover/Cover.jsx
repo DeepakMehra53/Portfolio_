@@ -7,7 +7,7 @@ export default function Cover(){
         >
           <div className="container w-container">
             <div className="cover_wrap">
-                
+                {/*tomorrow  */}
             </div>
           </div>
         </div>
