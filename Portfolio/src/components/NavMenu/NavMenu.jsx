@@ -16,10 +16,11 @@ export default function NavMenu () {
       <div className="add_nav_wrap">
         <div className="link_div">
           {links.map(({href, text, classMod, hide},index) => (
-            <NavLink key={index} href={href} className={`hover_link_wrap w-inline-block ${hide?"is-hide":''}`}>
+            <NavLink key={index} href={href} text={text} classMod={classMod} className={`hover_link_wrap w-inline-block ${hide?"is-hide":''}`}>
+              
               <div className=" link_anim">
                 <div className=" anim_wr">
-                  <div className=" custom-3d-transfrom">
+                  <div className="lowercase custom-3d-transfrom">
                     {text}
                   </div>
                   <div className={`nav-link0-down ${classMod} custom-3d-style`}>

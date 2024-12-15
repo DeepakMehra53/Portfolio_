@@ -21,6 +21,18 @@
     display: none;
     width: 8.75em;
 }
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+img {
+    border: 0;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 @media screen and (max-width: 991px) {
     .logo {
         width: 15em;
