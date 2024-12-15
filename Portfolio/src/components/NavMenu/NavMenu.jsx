@@ -3,25 +3,30 @@ import NavLink from "../NavLink/NavLink";
 import Switch from "../Switch/Switch";
 export default function NavMenu () {
   const links = [
-    { href: "#home", text: "Home" },
-    { href: "#introduction", text: "Introduction" },
-    { href: "#projects", text: "Projects" },
-    { href: "#skills", text: "Skills" },
-    { href: "#blogs", text: "Blogs" },
-    { href: "#contact", text: "Contact" },
+    { href: "#home", label: "Home", classMod: "is--first" },
+    { href: "#introduction", label: "Introduction", classMod: "is-- second" },
+    { href: "#projects", label: "Projects", classMod: "is--third" },
+    { href: "#skills", label: "Skills", classMod: "is--fourth" },
+    { href: "#team", label: "Team", classMod: "is--fourth" },
+    { href: "/blog", label: "blog", classMod: "is--sixth", hide: true },
+    { href: "#contact", label: "Contact", classMod: "is--sixth" },
   ];
   return (
-    <nav className="nav-menu w-nav-menu">
+    <nav role="navigation" className="nav-menu w-nav-menu">
       <div className="add_nav_wrap">
         <div className="link_div">
-          {links.map((link, index) => (
-            <NavLink key={index} href={link.href} text={link.text} >
-                <div className="relative flex flex-col mr-0 overflow-visible ">
-                    <div className="relative flex flex-col overflow-visible">
-                        <div className="block p-0 text-sm font-semibold text-white upercase custom-3d-transfrom">{link.text.toLowerCase()}</div>
-                        <div className="absolute block p-0 text-sm font-semibold text-white uppercase landing-[1.3] nav-link-down is--first custom-3d-style">{link.text}</div>
-                    </div>
+          {links.map(({href, label, classMod, hide},index) => (
+            <NavLink key={index} href={href} className={`hover_link_wrap w-inline-block ${hide?"is-hide":''}`}>
+              <div className=" link_anim">
+                <div className=" anim_wr">
+                  <div className=" custom-3d-transfrom">
+                    {label}
+                  </div>
+                  <div className={`nav-link0-down ${classMod} custom-3d-style`}>
+                    {label}
+                  </div>
                 </div>
+              </div>
             </NavLink>
           ))}
         </div>
