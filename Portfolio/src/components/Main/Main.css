@@ -1,0 +1,15 @@
+.body {
+    background-color: #091a36;
+    background-image: none;
+    background-size: auto;
+    font-family: Mont, sans-serif;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 400;
+    cursor: auto;
+}
+@media screen and (max-width: 991px){
+    .body {
+        font-size: 7px;
+    }
+}
