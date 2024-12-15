@@ -54,3 +54,13 @@
 .line_nav.light {
     background-color: #0c1e3d;
 }
+
+.w-nav-overlay {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}

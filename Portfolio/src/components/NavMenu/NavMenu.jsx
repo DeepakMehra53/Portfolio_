@@ -14,7 +14,7 @@ export default function NavMenu () {
   return (
     <nav role="navigation" className="nav-menu w-nav-menu">
       <div className="add_nav_wrap">
-        <div className="link_div">
+        <div className="flex flex-row link_div">
           {links.map(({href, text, classMod, hide},index) => (
             <NavLink key={index} href={href} text={text} classMod={classMod} className={`hover_link_wrap w-inline-block ${hide?"is-hide":''}`}>
               
