@@ -1,0 +1,14 @@
+._3_line {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    padding-left: 43%;
+}
+
+.h_1 {
+    position: relative;
+    z-index: 1;
+    font-size: 6.8em;
+}
