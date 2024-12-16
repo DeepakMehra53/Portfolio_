@@ -18,9 +18,12 @@ export default function Cover(){
           <div className="container w-container">
             <div className="cover_wrap">
                 <LineOne/>
-                
+                <LineTwo/>
+                <LineThree/>
+                <LineWrap/>
             </div>
-            
+            <MobileButton/>
+            <DesktopButton/>
           </div>
         </div>
       </>
