@@ -1,3 +1,13 @@
+import React from "react";
+import LineOne from "../1_Line/LineOne.jsx";
+import LineTwo from "../2_Line/LineTwo.jsx";
+import LineThree from "../3_Line/LineThree.jsx";
+import LineWrap from "../LineWrap/LineWrap.jsx";
+import MobileButton from "../MobileButton/MobileButton.jsx";
+import DesktopButton from "../DesktopButton/DesktopButton.jsx";
+
+
+
 export default function Cover(){
     return (
       <>
@@ -7,8 +17,10 @@ export default function Cover(){
         >
           <div className="container w-container">
             <div className="cover_wrap">
+                <LineOne/>
                 
             </div>
+            
           </div>
         </div>
       </>
