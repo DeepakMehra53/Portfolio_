@@ -9,3 +9,4 @@ const Introduction=({text,imageSrc,imageClass,additionalTextClass})=>{
         </div>
     )
 }
+export default Introduction;
