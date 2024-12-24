@@ -2,6 +2,7 @@ import Navbar from "../Navbar/Navbar";
 import Cover from "../Cover/Cover.jsx";
 import BottomLine from "../BottomLines/BottomLine.jsx";
 import Introduction from "../Introduction/Introduction.jsx";
+import Discover from "../Discover/Discover.jsx";
 export default function Section() {
   return (
     <div
@@ -13,12 +14,14 @@ export default function Section() {
         id="home"
         data-w-id="0e218e3a-0bda-be87-276e-bd6329bfc828"
         className="_100vh "
-      >
+        >
         <Navbar /> 
         <Cover />
         <BottomLine/>
         <Introduction/>
+        
       </div>
+        <Discover/>
     </div>
   );
 }

@@ -4,13 +4,13 @@
 
 
 body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333
 }
 
 /* ==========================================================================
@@ -11258,6 +11258,7 @@ figure {
     grid-row-end: 17;
   }
 }
+
 @font-face {
   font-family: 'Mont';
   src: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/614cb67d79946042195e61b1_font.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/614cb67dd8b99f036f6e00d4_font.woff') format('woff');
@@ -11265,6 +11266,7 @@ figure {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Mont';
   src: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/614cb6c3511e697ba848bf21_font.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/614cb6c3a6a886ee44f1ec0a_font.woff') format('woff');
@@ -11272,6 +11274,7 @@ figure {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Mont';
   src: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/614cb6de50ddef318db39704_font.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/614cb6ded56c0177e7fd7454_font.woff') format('woff');
@@ -11279,3 +11282,33 @@ figure {
   font-style: normal;
   font-display: swap;
 }
+
+.big_tx_wrap {
+  position: relative;
+  z-index: 1;
+  padding-top: 6.67em;
+  padding-bottom: 6.67em;
+  border-radius: 30px;
+  background-color: #f3f4f5;
+  opacity: 1;
+}
+
+.big_tx_div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.big_tx {
+  color: #0c1e3d;
+  font-size: 3.75em;
+  line-height: 1.4;
+  text-align: center;
+}
+

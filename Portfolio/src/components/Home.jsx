@@ -1,3 +1,4 @@
+import Discover from "./Discover/Discover";
 import Navbar from "./Navbar1";
 export default function () {
   return (
@@ -20,6 +21,7 @@ export default function () {
           <div className="z-[5] max-w-full pr-10 pl-10 mx-auto  container w-container">
             <Navbar/>
           </div>
+            
         </div>
       </div>
     </>
