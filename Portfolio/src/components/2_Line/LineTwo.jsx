@@ -22,7 +22,7 @@ const LineTwo = () => {
         <img src={Left_arrow} alt="" loading="lazy" className="arrow_cover_1" />
       </div>
       <h1 data-w-id="84e94ef1-f928-69cd-437a-1599a3116939" className="h_1 yg">
-        Abundance:
+        Innovative 
       </h1>
       
       
