@@ -1,7 +1,7 @@
 
 import Downarrow from "../../assets/Downarrow.svg"
 import { Worksheet } from "../Worksheets/Worksheet";
-import { ProjectIntro } from "../ProjectIntro/ProjectIntro";
+import { ProjectIntro } from "../ProjectIntro/ProjectIntro"
 const ThirdpageTagLine = () => {
   return (
     <div
