@@ -1,5 +1,6 @@
 
 import Downarrow from "../../assets/Downarrow.svg"
+import { Worksheet } from "../Worksheets/Worksheet";
 const ThirdpageTagLine = () => {
   return (
     <div
@@ -13,6 +14,7 @@ const ThirdpageTagLine = () => {
         data-w-id="efc14e61-b933-15bb-967c-d3bd42d50aaa"
         className="arrow_o"
       />
+      <Worksheet/>
     </div>
   );
 }
