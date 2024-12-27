@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Discover = () => {
      const textContent = [
@@ -11,11 +11,7 @@ const Discover = () => {
        "My skill set includes React, Node.js, AWS, Python, and more.",
      ];
 
-     const mobileTextContent = [
-       "My skill set includes React, Node.js, AWS, Python, and more.",
-       "Driven by problem-solving and collaboration, I aim to make complex systems simple and user-friendly.",
-       "With a strong foundation in Computer Science, I am eager to apply my knowledge to real-world projects and continue learning.",
-     ];
+     
      
   return (
     <div id="discover" className="big_tx_wrap">
