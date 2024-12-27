@@ -1,8 +1,8 @@
-import {Firstsquar} from "../../assets/Firstsquar.svg";
-import { Secondsquar } from "../../assets/Secondsquar.svg";
-import { Thirdsquar } from "../../assets/Thirdsquar.svg";
-import { Forthsquar } from "../../assets/Forthsquar.svg";
-import {Fifthsquar} from "../../assets/Fifthsquar.svg";
+import Firstsquar from "../../assets/Firstsquar.svg";
+import  Secondsquar  from "../../assets/Secondsquar.svg";
+import  Thirdsquar from "../../assets/Thirdsquar.svg";
+import Forthsquar  from "../../assets/Forthsquar.svg";
+import Fifthsquar from "../../assets/Fifthsquar.svg";
 
 export const ProjectIntro = () => {
   return (
