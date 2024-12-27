@@ -3,6 +3,7 @@ import Cover from "../Cover/Cover.jsx";
 import BottomLine from "../BottomLines/BottomLine.jsx";
 import Blur from "../Blur-Background/Blur.jsx";
 import Discover from "../Discover/Discover.jsx";
+import Lines from "../Lines/Lines.jsx"
 export default function Section() {
   return (
     <div
@@ -23,6 +24,7 @@ export default function Section() {
       </div>
         <Discover/>
         <Blur/>
+        <Lines/>
     </div>
   );
 }
