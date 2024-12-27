@@ -3,12 +3,10 @@
 const Discover = () => {
      const textContent = [
        "My name is Deepak Mehra,and I am a recent",
-       "graduate with a BTech in Computer Science",
-       "specializing in full-stack development and,",
-       " passionate about building innovative software ",
-       "solution. With expertise in front-end and back-end",
-       "technologies,I create responsive, efficient, and scalable applications.",
-       "My skill set includes React, Node.js, AWS, Python, and more.",
+       "graduate with a BTech in Computer Science.",
+       "I specializing in full-stack development, focusing",
+       "on building innovative, responsive, and scalable software solution with expertise in front-end  ",
+       "and back-end technologies",
      ];
 
      

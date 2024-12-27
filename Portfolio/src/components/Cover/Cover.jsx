@@ -1,4 +1,4 @@
-import React from "react";
+
 import LineOne from "../1_Line/LineOne.jsx";
 import LineTwo from "../2_Line/LineTwo.jsx";
 import LineThree from "../3_Line/LineThree.jsx";

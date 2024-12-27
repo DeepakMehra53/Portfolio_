@@ -1,7 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import Cover from "../Cover/Cover.jsx";
 import BottomLine from "../BottomLines/BottomLine.jsx";
-import Introduction from "../Introduction/Introduction.jsx";
+
 import Discover from "../Discover/Discover.jsx";
 export default function Section() {
   return (
@@ -18,7 +18,7 @@ export default function Section() {
         <Navbar /> 
         <Cover />
         <BottomLine/>
-        <Introduction/>
+        
         
       </div>
         <Discover/>
