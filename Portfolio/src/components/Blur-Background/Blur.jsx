@@ -1,8 +1,8 @@
 import Blurbg from "../../assets/Blurbg-1.png";
 import Blurbg2 from "../../assets/Blurbg-2.svg"
 import Blurbg3 from "../../assets/Blurbg-3.jpg"
-// import Blurbg4 from "../../assets/Blurbg-4.jpeg"
-// import Blurbg5 from "../../assets/Blurbg-5.jpeg"
+import Blurbg4 from "../../assets/Blurbg-4.jpeg"
+import Blurbg5 from "../../assets/Blurbg-5.jpeg"
 const Blur = () => {
   return (
     <div className="blur_bg_wrap">
@@ -17,8 +17,8 @@ const Blur = () => {
       <img
         src={Blurbg3}
         loading="lazy"
-        sizes="100vw"
-        srcSet={``}
+        sizes="100mw"
+        srcSet={`${Blurbg4} 800w, ${Blurbg5} 1600w, ${Blurbg3} 1900w`}
         className="new_cover_blot"
       />
     </div>
