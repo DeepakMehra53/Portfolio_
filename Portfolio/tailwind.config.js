@@ -1,4 +1,4 @@
-import { transform } from 'framer-motion'
+
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,7 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      
+      colors:{
+        'stroke-gray': '#A3A6B1',
+      }
     },
   },
   plugins: [
@@ -43,6 +45,13 @@ export default {
       transformStyle: 'preserve - 3d',
         }
       })
+    },
+    function({addUtilities}){
+      addUtilities({
+        '.webkit-text-stroke': {
+          '-webkit-text-stroke': '1px #A3A6B1',
+        },
+      });
     }
   ],
 }

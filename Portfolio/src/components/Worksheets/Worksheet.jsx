@@ -7,7 +7,7 @@ export const Worksheet = () => {
       className="very_big_tx_wrap"
     >
       <div className="very_big_tx">Work</div>
-      <div className="very_big_tx_stroke">Sheet</div>
+      <div className="text-white very_big_tx_stroke webkit-text-stroke">Sheet</div>
     </div>
   );
 }
