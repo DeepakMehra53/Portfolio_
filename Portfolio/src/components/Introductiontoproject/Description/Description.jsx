@@ -6,6 +6,8 @@ export const Description = () => {
         Built impactful projects like an Attendance Tracker, Sorting Visualizer,
         and Shopping Cart System. Worked with technologies including Python,
         JavaScript, React, Node.js, Docker, AWS, HTML, CSS, TailwindCSS,
+        <br/><br/>
+        
         Next.js, MongoDB, PostgreSQL, Prisma, and JWT. Focused on delivering
         efficient solutions through technical expertise and a strong foundation
         in problem-solving and teamwork.
